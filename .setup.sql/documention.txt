@@ -1,0 +1,19 @@
+step1: install python
+step2: pip install -r requirements.txt(path of text file)
+step3: download mysqldb
+step4: login db with below credentials
+name of db:allstars
+pw:Innotas-123
+Note: above db credentials for just for testing 
+
+step5:run django servers
+ex:cd project path then python manage.py runserver
+
+below api are implimented
+Register API:POST
+http://127.0.0.1:8000/auth/register/
+Email Verify API:GET
+http://127.0.0.1:8000/auth/verify-email/
+Login API:POST
+http://127.0.0.1:8000/auth/login/
+
